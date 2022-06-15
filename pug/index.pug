@@ -1,0 +1,20 @@
+doctype 
+html 
+    head 
+        include include/font
+        link(rel="stylesheet" , href="../sass/main.css")
+        title To Do List
+    body 
+        .main-handler
+            h1 My To-Do-List
+            .to-do-list
+                .add-new-task 
+                    h2 Add New Task: 
+                    input(type="text", id="task-name" , placeholder="New Task..")
+                    .btns 
+                        button(class="add btn btn-success",id="add") Add
+                        button(class="clear btn btn-danger",id="clear") Clear All!
+                .tasks-list 
+                    h1 My Tasks List
+                    div(class="my-tasks",id="my-tasks") 
+        script(src="../js/main.js")
