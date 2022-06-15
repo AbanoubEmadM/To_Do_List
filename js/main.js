@@ -14,7 +14,7 @@ function checkValue() {
                 <input disabled id="input-task" value="${taskInp.value}">
                 <i onclick="removeItem()" class="fa-solid fa-xmark" id="close"></i>
                 <i onclick="handleEdit()" class="fa-solid fa-pen" id="edit"></i>
-                <i onclick="acceptEdit()" style="display:none" class="fa-solid fa-check" id="check"></i>
+                <i onclick="acceptEdit()" style="display:none;color:green;" class="fa-solid fa-check" id="check"></i>
                 </div>
         </div>
         `
